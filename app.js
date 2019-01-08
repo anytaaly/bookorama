@@ -27,4 +27,7 @@ console.log("the parent element is:", bookList.parentElement);
 console.log("the parent element is:", bookList.parentElement.parentElement);
 
 //Traversering children
-console.log("the parent element is:", bookList.childElementCountNodes);
+//childNodes will give you "breaks" too as
+console.log("the parent element is:", bookList.childNodes);
+//Only children without breaks
+console.log(bookList.children);
