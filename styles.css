@@ -85,7 +85,7 @@ h2 {
   margin: 0 auto;
 }
 
-#add-book input {
+#add-book .input {
   display: block;
   margin: 20px 0;
   padding: 10px;
