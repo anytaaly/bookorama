@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Thasadith:700");
 body {
   font-family: "Thasadith", sans-serif;
-  color: #444;
   letter-spacing: 1px;
 }
 
@@ -18,8 +17,19 @@ body {
 }
 
 #page-banner {
-  background: #eee;
+  color: #eee;
   padding: 10px 0;
+  position: relative;
+}
+.lib {
+  width: 100%;
+}
+.title {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
 }
 
 #page-banner h1,
@@ -27,6 +37,7 @@ body {
   width: 100%;
   text-align: center;
   margin: 10px 0;
+  color: "white";
 }
 
 #page-banner input {
